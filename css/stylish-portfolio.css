@@ -33,8 +33,8 @@ body {
 
 .btn-dark {
     border-radius: 0;
-    color: #fff;
-    background-color: rgba(0,0,0,0.4);
+    color: black;
+    background-color: white;
 }
 
 .btn-dark:hover,
@@ -148,6 +148,31 @@ hr.small {
     margin: 5px 5px 0 0;
 }
 
+#title {
+  margin-top: 250px;
+  color: white;
+}
+
+#title h1 {
+  margin: 0;
+  padding: 0;
+  font-size: 4.5em;
+  font-weight: 700;
+}
+
+#title h3 {
+  margin: 0;
+  padding: 0;
+  font-size: 3em;
+  font-weight: 600;
+}
+
+#title h4 {
+  margin-top: 25px;
+  font-size: 2em;
+  font-weight: 500;
+}
+
 /* Header */
 
 .header {
@@ -168,6 +193,10 @@ hr.small {
     padding: 50px 0;
 }
 
+.bg-primary {
+  background-color: black;
+}
+
 /* Services */
 
 .services {
@@ -176,6 +205,10 @@ hr.small {
 
 .service-item {
     margin-bottom: 30px;
+}
+
+.black-text {
+  color: black;
 }
 
 /* Callout */
